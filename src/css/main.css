@@ -114,15 +114,61 @@ width: 210px;
 .how-swiper .swiper-wrapper{
     gap: 32px;
     justify-content: center;
+}  
 }
-.how-slide-title{
-    margin-top: 30px;
-    font-weight: 500;
+/* Game Features */
+.features-list{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
-.how-slide-text{
-    margin-top: 8px;
-    font-weight: 300;
-        font-size: 12px;
+.features-item{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.features-item-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.features-item-title{
+    text-align: left;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #636db8;
+        width: 223px;
+}
+.features-item-text{
+    font-size: 12px;
+    text-align: left;
     color: #c8cbe7;
+}
+@media only screen and (min-width: 1440px) {
+ .features-list{
+    margin-top: 64px;
+    flex-direction: row;
+justify-content: center;
+}
+.features-item{
+    width: 200px;
+        height: 176px;
+flex-direction: column;
+    gap: 32px;
+}
+.features-item-wrapper{
+    align-items: center;
+    gap: 16px;
+}
+.features-item-title{
+text-align: center;
+    padding-bottom: 16px;
+width: 176px;
+}
+.features-item-text{
+text-align: center;
+}
+.mob{
+    display: none;
 }   
 }
