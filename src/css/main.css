@@ -77,3 +77,52 @@ text-align: left;
     width: 732px;
 }   
 }
+/* How To Play */
+.how-swiper .swiper-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px;
+        padding: 24px;
+        width: 280px;
+        height: 458px;
+        box-shadow: 0 0 4px 1px rgba(99, 109, 184, 0.7);
+            background: #171c49;
+
+}
+.how-swiper .swiper-wrapper{
+    padding: 2px;
+}
+.how-slide-title{
+    margin-top: 30px;
+    font-weight: 500;
+}
+.how-slide-text{
+    margin-top: 8px;
+    font-weight: 300;
+        font-size: 12px;
+    color: #c8cbe7;
+}
+@media only screen and (min-width: 1440px) {
+ .how-swiper .swiper-slide{
+width: 210px;
+    height: 368px;
+        box-shadow: 0 0 4px 1px rgba(99, 109, 184, 0.7);
+            background: #171c49;
+
+}
+.how-swiper .swiper-wrapper{
+    gap: 32px;
+    justify-content: center;
+}
+.how-slide-title{
+    margin-top: 30px;
+    font-weight: 500;
+}
+.how-slide-text{
+    margin-top: 8px;
+    font-weight: 300;
+        font-size: 12px;
+    color: #c8cbe7;
+}   
+}
