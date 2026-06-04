@@ -7,18 +7,18 @@ body{
     text-align: center;
     color: #fafafa;
 }
-h2{
+.title{
   font-family: "Fredoka", sans-serif;
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     color: #c8cbe7;
     border-bottom: 1px solid #e8d286;
-      padding: 4px 4px 8px;
-      width: 283px;
+   padding-bottom: 4px;
+      width: 280px;
       height: 31px;
-      margin-bottom: 64px;
+
 }
 h3{
   font-family: "Fredoka", sans-serif;
@@ -29,4 +29,13 @@ h3{
     text-align: center;
     color: #c8cbe7;
     margin-bottom: 48px;
+}
+@media only screen and (min-width: 1440px) {
+.title{
+width: 1152px;
+
+}
+h3{
+font-size: 40px;
+}  
 }
