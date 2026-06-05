@@ -1,9 +1,9 @@
 .home-section{
     background-image: url("/img/home/mob.png");
     background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;
-    height: 860px;
+    background-position: bottom center;
+    background-size: 100% 430px;
+    height: 800px;
 }
 .home-wrapper{
     width: 343px;
@@ -37,6 +37,7 @@
 @media only screen and (min-width: 1440px) {
  .home-section{
     background-image: url("/img/home/desk.png");
+    background-size: cover;
 height: 826px;
 }
 .home-wrapper{
@@ -412,6 +413,26 @@ width: 790px;
     padding:12px 8px;
         width: 790px;
     }
+}
+/* Contact */
+.contact-link{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: center;
+}
+.contact-section{
+    background-image: url("/img/contact/mob.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 100% 296px;
+    height: 636px;
 
-
+}
+@media only screen and (min-width: 1440px) {
+.contact-section{
+    background-image: url("/img/contact/desk.png");
+    background-size: 100% 810px;
+height: 1174px;
+}    
 }
