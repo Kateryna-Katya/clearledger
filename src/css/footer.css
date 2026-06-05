@@ -1,3 +1,7 @@
+.footer{
+  background: #171c49;
+  border-top: 1px solid #636db8;
+}
 .footer-container {
   gap: 32px;
   display: flex;
