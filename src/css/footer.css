@@ -24,5 +24,6 @@
   }
 .footer-navigation{
   gap: 88px;
+  justify-content: end;
 }
 }
